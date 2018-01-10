@@ -1,0 +1,26 @@
+body{
+    background: #666;
+}
+.progress{
+    position: relative;
+    width:470px;
+    height:32px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    background: url("/static/images/progress_01.png");
+}
+.progress div{
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    background-color: #4391f3;
+    display: block;
+    z-index: 1;
+}
+.progress span{
+    position: relative;
+    z-index: 2;
+}
