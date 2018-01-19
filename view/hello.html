@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/static/css/hello.css">
-    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <link rel="stylesheet" href="/static/css/hello.min.css">
+    <script type="text/javascript" src="/static/js/common.js"></script>
+    <script type="text/javascript" src="/static/js/hello.min.js"></script>
 </head>
 <body>
 <div class="progress">
@@ -18,19 +19,9 @@
 </form>
 <img src="/static/images/loading.gif" alt="">
 <span>{{name}}xcdaaa</span>
-<span>asdf</span>
+<span>asfsfsdf</span>
 </body>
 <script type="text/javascript">
-    $(document).ready(function(){
-        let progress = 0;
-        let timer = setInterval(function(){
-            progress += 1;
-            $(".progress div").css("width",progress+"%");
-            $(".progress span").text(progress+"%");
-            if(progress == 100){
-                clearInterval(timer)
-            }
-        },1000/60)
-    })
+
 </script>
 </html>
