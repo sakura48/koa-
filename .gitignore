@@ -1,4 +1,5 @@
-# Logs
+/static/
+/controller/
 logs
 *.log
 npm-debug.log*
